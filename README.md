@@ -14,13 +14,13 @@ This repository contains the EFI folder and related files for creating a Hackint
 | AUDIO | VIA VT2021 |
 
 ## What Doesn't Work
-- Airdrop/Handoff/Bluetooth because there are no Wi-Fi module in my PC (Especially BCM94360CS2).
-- 100Hz Refresh Rate (Maybe need to reconfigure to make it work).
+- Airdrop/Handoff/Bluetooth : No Wi-Fi module in my PC (especially BCM94360CS2).
+- 100Hz Refresh Rate : May need to reconfigure to make it work.
 
-## What To Do After Installing (Post Install) 
+## Post-Installation Tasks
 - Force RGB for >60hz monitor.
-- Change audio layout to 0x100100, layout 5, 7, 9, 3 (VT2021).
-- Change graphic card fan curves (AMD Polaris to be precise).
+- Change audio layout : Set to 0x100100, layout 5, 7, 9, 3 (VT2021).
+- Change graphic card fan curves : Use [saudor](https://www.youtube.com/@saudor) tutorial in the credits below.
 
 ## Credits
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and essential kexts.
